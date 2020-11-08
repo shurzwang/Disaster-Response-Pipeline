@@ -21,13 +21,7 @@
 
     `seaborn`
 
-    `sklearn.model_selection` 
-
-    `sklearn.linear_model`
-
-     `sklearn.ensemble` 
-
-     `sklearn.metrics` 
+    `sklearn' 
 
     
 ## Project Motivation<a name="motivation"></a>
