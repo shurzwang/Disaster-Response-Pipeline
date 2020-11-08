@@ -21,7 +21,7 @@
 
     `seaborn`
 
-    `sklearn' 
+    `sklearn`
 
     
 ## Project Motivation<a name="motivation"></a>
