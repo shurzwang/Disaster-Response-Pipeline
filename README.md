@@ -1,4 +1,4 @@
-# Stack Overflow Developer Survey 2020 data analysis
+# Stack Overflow Developer Survey 2020 - Data Analysis
 
 ### Table of Contents
 
