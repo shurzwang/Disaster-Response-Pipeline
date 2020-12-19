@@ -4,7 +4,7 @@
 
 1. [Installation](#installation)
 2. [Project Motivation](#motivation)
-3. [File Descriptions](#files)
+3. [Program Excution](#files)
 4. [Results](#results)
 5. [Acknowledgements](#Acknowledgements)
 
@@ -13,35 +13,35 @@
 
 - Libraries used:
 
-    `sklearn` `pandas` `numpy` 
-
-    `numpy`
-
-    `matplotlib`
-
-    `seaborn`
-
-   - Machine Learning Libraries: `sklearn` `pandas` `numpy`
-   - Natural Language Process Libraries: `nltk`NLTK
-   - SQLlite Database Libraqries: `sqlchemy`SQLalchemy
-   - Model Loading and Saving Library: `sys` `pickle`
-   - Web App and Data Visualization: `flash`Flask, `plotly`
+   - Machine Learning: `sklearn` `pandas` `numpy`
+   - Natural Language Process: `nltk`
+   - SQLite Database: `sqlchemy`
+   - Model Saving and Loading: `sys` `pickle`
+   - Web App and Data Visualization: `flash` `plotly`
 
     
 ## Project Motivation<a name="motivation"></a>
 
-For this project, I was interestested in using Stack Overflow data from 2020 to answer:
-1. Is age, gender and education level influence the frequency of new language learning?
-2. Will developer who prefer to learn more new languages or frameworks has higher salary?
-3. Which countries have higher learning new language rate?
-4. Respondents who have stronger intention to learn more language or framework, will lead to higher work overtime?
-5. Any difference of learn new language rate in the size of the organization?
-6. Which are the major factors can be used to predict if the developer are passionate about new programming language or framework?
+This project is to analyze disaster data from Figure Eight to build a model for an API that classifies disaster messages. In the Workspace, you'll find a data sets containing real messages that were sent during disaster events. We created a machine learning pipeline to categorize these events so that the messages can be sent to an appropriate disaster relief agency.
 
+The first part of data pipeline is the Extract, Transform, and Load process. The second part is machine learning(multi-output classification), a pipeline was created using NLTK, as well as scikit-learn's Pipeline and GridSearchCV to output a final model which is saved as pickle file. The third part is a web app where an emergency worker can input a new message and get classification results in 36 categories. The web app also displays visualizations of the data. 
 
-## File Descriptions <a name="files"></a>
+![Intro Pic](screenshots/Web_Page1.png)
+![Intro Pic](screenshots/Web_Page2.png)
 
-- There is one iPython notebook Stack_overflow_survey.ipynb available to showcase work related to the above questions. The Data files are available [here](https://insights.stackoverflow.com/survey). 
+## Program Excution <a name="files"></a>
+
+- 1. You can run the Jupter notebook file, or excute the files in the project's directory to set up the database, train model and save the model.
+
+    - To run ETL pipeline to clean data and store the processed data in the database
+        `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/disaster_response_db.db`
+    - To run the ML pipeline that loads data from DB, trains classifier and saves the classifier as a pickle file
+        `python models/train_classifier.py data/disaster_response_db.db models/classifier.pkl`
+
+2. Run the following command in the app's directory to start the web app.
+    `python run.py
+
+3. Go to http://0.0.0.0:3001/
 
 
 ## Results<a name="results"></a>
