@@ -26,8 +26,8 @@ This project is to analyze disaster data from Figure Eight to build a model for 
 
 The first part of data pipeline is the Extract, Transform, and Load process. The second part is machine learning(multi-output classification), a pipeline was created using NLTK, as well as scikit-learn's Pipeline and GridSearchCV to output a final model which is saved as pickle file. The third part is a web app where an emergency worker can input a new message and get classification results in 36 categories. The web app also displays visualizations of the data. 
 
-![Intro Pic](Screenshots/Web_Page1.png)
-![Intro Pic](Screenshots/Web_Page2.png)
+![Intro Pic1](Screenshots/Web_Page1.png)
+![Intro Pic2](Screenshots/Web_Page2.png)
 
 ## Program Excution <a name="files"></a>
 
