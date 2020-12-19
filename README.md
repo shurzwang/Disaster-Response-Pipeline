@@ -13,25 +13,27 @@
 
 - Libraries used:
 
-   - Machine Learning: `sklearn` `pandas` `numpy`
+   - Machine Learning: `sklearn` `pandas` 
    - Natural Language Process: `nltk`
-   - SQLite Database: `sqlchemy`
+   - SQLite Database: `sqlalchemy`
    - Model Saving and Loading: `sys` `pickle`
-   - Web App and Data Visualization: `flash` `plotly`
+   - Web App and Data Visualization: `flask` `plotly` `jason`
 
     
 ## Project Motivation<a name="motivation"></a>
 
-This project is to analyze disaster data from Figure Eight to build a model for an API that classifies disaster messages. In the Workspace, you'll find a data sets containing real messages that were sent during disaster events. We created a machine learning pipeline to categorize these events so that the messages can be sent to an appropriate disaster relief agency.
+This project is to analyze disaster data from Figure Eight to build a model for an API that classifies disaster messages. The data sets containing real messages that were sent during disaster events. We created a machine learning pipeline to categorize these events so that the messages can be sent to an appropriate disaster relief agency.
 
-The first part of data pipeline is the Extract, Transform, and Load process. The second part is machine learning(multi-output classification), a pipeline was created using NLTK, as well as scikit-learn's Pipeline and GridSearchCV to output a final model which is saved as pickle file. The third part is a web app where an emergency worker can input a new message and get classification results in 36 categories. The web app also displays visualizations of the data. 
+- The first part of data pipeline is the Extract, Transform, and Load process. 
+- The second part is machine learning(multi-output classification), a pipeline was created using NLTK, as well as scikit-learn's Pipeline and GridSearchCV to output a final model which is saved as pickle file. 
+- The third part is a web app where an emergency worker can input a new message and get classification results in 36 categories. The web app also displays visualizations of the data. 
 
 ![Intro Pic1](Screenshots/Web_Page1.png)
 ![Intro Pic2](Screenshots/Web_Page2.png)
 
-## Program Excution <a name="files"></a>
+## Program Execution <a name="files"></a>
 
-- 1. You can run the Jupter notebook file, or excute the files in the project's directory to set up the database, train model and save the model.
+- 1. You can run the Juypter notebook files, or execute the files in the project's directory to set up the database, train and save the model.
 
     - To run ETL pipeline to clean data and store the processed data in the database
         `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/disaster_response_db.db`
