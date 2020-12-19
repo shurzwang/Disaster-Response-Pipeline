@@ -4,7 +4,7 @@
 
 1. [Installation](#installation)
 2. [Project Motivation](#motivation)
-3. [Program Excution](#files)
+3. [Program Execution](#files)
 4. [Results](#results)
 5. [Acknowledgements](#Acknowledgements)
 
@@ -46,7 +46,9 @@ The first part of data pipeline is the Extract, Transform, and Load process. The
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the post available [here](https://maxwang1998.medium.com/are-developers-passinate-about-learning-new-programming-language-26d4d712f436).
+The site can be accessed when [demo server](http://maxcn.asuscomm.com:3001) started 
+![Cat Page1](Screenshots/Category1.png)
+![Cat Page2](Screenshots/Category2.png)
 
 ## Licensing, Authors, Acknowledgements<a name="Acknowledgements"></a>
-Thanks to Stack Overflow for the data and Udacity provided this topic. You can find the insigh for the data and other descriptive information from the link [Stackoverflow 2020 Developer Survey](https://insights.stackoverflow.com/survey/2020#technology-already-visited-feeling).
+Thanks to [Figure Eight](https://www.figure-eight.com/) for the data and [Udacity](https://www.udacity.com/) provided this topic. 
