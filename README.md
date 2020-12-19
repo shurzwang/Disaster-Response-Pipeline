@@ -17,7 +17,7 @@
    - Natural Language Process: `nltk`
    - SQLite Database: `sqlalchemy`
    - Model Saving and Loading: `sys` `pickle`
-   - Web App and Data Visualization: `flask` `plotly` `jason`
+   - Web App and Data Visualization: `flask` `plotly` `json`
 
     
 ## Project Motivation<a name="motivation"></a>
