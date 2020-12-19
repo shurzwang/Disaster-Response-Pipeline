@@ -22,7 +22,7 @@
     
 ## Project Motivation<a name="motivation"></a>
 
-This project is to analyze disaster data from Figure Eight to build a model for an API that classifies disaster messages. The data sets containing real messages that were sent during disaster events. We created a machine learning pipeline to categorize these events so that the messages can be sent to an appropriate disaster relief agency.
+This project is part of Data Science Nanodegree Program by Udacity, to analyze disaster data from Figure Eight to build a model for an API that classifies disaster messages. The data sets containing real messages that were sent during disaster events. Machine learning pipelines were created to categorize these events so that the messages can be sent to an appropriate disaster relief agency.
 
 - The first part of data pipeline is the Extract, Transform, and Load process. 
 - The second part is machine learning(multi-output classification), a pipeline was created using NLTK, as well as scikit-learn's Pipeline and GridSearchCV to output a final model which is saved as pickle file. 
@@ -33,7 +33,7 @@ This project is to analyze disaster data from Figure Eight to build a model for 
 
 ## Program Execution <a name="files"></a>
 
-- 1. You can run the Juypter notebook files, or execute the files in the project's directory to set up the database, train and save the model.
+1. You can run the Juypter notebook files, or execute the files in the project's directory to set up the database, train and save the model.
 
     - To run ETL pipeline to clean data and store the processed data in the database
         `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/disaster_response_db.db`
@@ -41,7 +41,7 @@ This project is to analyze disaster data from Figure Eight to build a model for 
         `python models/train_classifier.py data/disaster_response_db.db models/classifier.pkl`
 
 2. Run the following command in the app's directory to start the web app.
-    `python run.py
+    `python run.py'
 
 3. Go to http://0.0.0.0:3001/
 
@@ -49,6 +49,7 @@ This project is to analyze disaster data from Figure Eight to build a model for 
 ## Results<a name="results"></a>
 
 The site can be accessed when [demo server](http://maxcn.asuscomm.com:3001) started 
+
 ![Cat Page1](Screenshots/Category1.png)
 ![Cat Page2](Screenshots/Category2.png)
 
