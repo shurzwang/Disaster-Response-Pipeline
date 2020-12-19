@@ -13,7 +13,7 @@
 
 - Libraries used:
 
-    `pandas`
+    `sklearn` `pandas` `numpy` 
 
     `numpy`
 
@@ -21,7 +21,11 @@
 
     `seaborn`
 
-    `sklearn`
+   Machine Learning Libraries: `sklearn` `pandas` `numpy` 
+   Natural Language Process Libraries: NLTK
+   SQLlite Database Libraqries: Sqlite3, SQLalchemy
+   Model Loading and Saving Library: Pickle
+   Web App and Data Visualization: Flask, Plotly
 
     
 ## Project Motivation<a name="motivation"></a>
