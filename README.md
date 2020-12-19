@@ -21,11 +21,11 @@
 
     `seaborn`
 
-   Machine Learning Libraries: `sklearn` `pandas` `numpy` 
-   Natural Language Process Libraries: NLTK
-   SQLlite Database Libraqries: Sqlite3, SQLalchemy
-   Model Loading and Saving Library: Pickle
-   Web App and Data Visualization: Flask, Plotly
+   - Machine Learning Libraries: `sklearn` `pandas` `numpy`
+   - Natural Language Process Libraries: `nltk`NLTK
+   - SQLlite Database Libraqries: `sqlchemy`SQLalchemy
+   - Model Loading and Saving Library: `sys` `pickle`
+   - Web App and Data Visualization: `flash`Flask, `plotly`
 
     
 ## Project Motivation<a name="motivation"></a>
