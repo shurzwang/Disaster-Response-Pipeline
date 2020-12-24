@@ -22,7 +22,7 @@
     
 ## Project Motivation<a name="motivation"></a>
 
-This project is part of Data Science Nanodegree Program by Udacity, to analyze disaster data from Figure Eight to build a model for an API that classifies disaster messages. The data sets containing real messages that were sent during disaster events. Machine learning pipelines were created to categorize these events so that the messages can be sent to an appropriate disaster relief agency.
+This project is to analyze disaster data from Figure Eight to build a model for an API that classifies disaster messages. The data sets containing real messages that were sent during disaster events. Machine learning pipelines were created to categorize these events so that the messages can be sent to an appropriate disaster relief agency.
 
 - The first part of data pipeline is the Extract, Transform, and Load process. 
 - The second part is machine learning(multi-output classification), a pipeline was created using NLTK, as well as scikit-learn's Pipeline and GridSearchCV to output a final model which is saved as pickle file. 
