@@ -48,7 +48,7 @@ This project is to analyze disaster data from Figure Eight to build a model for 
 
 ## Results<a name="results"></a>
 
-The site can be accessed when [demo server](http://maxcn.asuscomm.com:3001) started 
+The site can be accessed when [demo server from Max](http://maxcn.asuscomm.com:3001) started 
 
 ![Cat Page1](Screenshots/Category1.png)
 ![Cat Page2](Screenshots/Category2.png)
